@@ -1,0 +1,31 @@
+# Site settings
+baseurl = "https://www.mendydrinks.com/"
+languageCode = "en-us"
+title = "Mendy Drinks"
+theme = "ghostwriter"
+copyright = "Mendy Berkowitz"
+
+[Author]
+	name = "Mendy Berkowitz"
+	profile = "https://instagram.com/mendy_drinks"
+
+[Taxonomies]
+	tag = "tags"
+
+[params]
+	intro = true
+	headline = "Mendy Drinks"
+	#description = "Mendy Drinks"
+    instagram = "mendy_drinks"
+    sharegoogleplus = false
+
+[Permalinks]
+	post = "/:year/:month/:day/:filename/"
+
+[outputFormats.jsonfeed]
+	mediaType = "application/json"
+	baseName = "feed"
+	isPlainText = true
+
+[outputs]
+	home = ["html", "jsonfeed", "rss"]	
