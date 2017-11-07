@@ -1,5 +1,5 @@
 ---
-title: "Jubilee Line”
+title: "Jubilee Line"
 date: 2017-11-06
 url: /2017/11/06/jubilee-line/
 tags:
