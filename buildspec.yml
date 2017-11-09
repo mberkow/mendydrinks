@@ -5,7 +5,6 @@ environment_variables:
     AWS_DEFAULT_REGION: "us-east-1"
     HUGO_VERSION: "0.30"
     HUGO_SHA256: "1c4dbbc4fb38577e7100129ded51984ea1795294370fded876b71698f64f8eae"
-    BUCKET_NAME: "mendydrinks.com-cdn"
 
 phases:
   install:
@@ -17,5 +16,4 @@ phases:
       - rm -rf /tmp/hugo*
   build:
     commands:
-      - hugo
-      - aws s3 sync --acl "public-read" --sse "AES256" public/ s3://$BUCKET_NAME --exclude 'post'
+      - ./build.sh
