@@ -1,7 +1,7 @@
 ---
 title: "Blood Orange"
 date: 2018-04-22
-url: /2018/04/2/blood-orange/
+url: /2018/04/22/blood-orange/
 tags:
   - Gin
   - Amaro
