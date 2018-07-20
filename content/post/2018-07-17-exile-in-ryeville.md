@@ -19,7 +19,7 @@ I usually don't bother with fancy garnishes when I'm mixing a single drink. But 
 
 * 1 1/2 oz Rye
 * 1/2 oz Cointreau
-* 1/1 oz Honey Syrup
+* 1/2 oz Honey Syrup
 * 1/4 oz Lemon Juice
 * 2 dash Orange Bitters
 
