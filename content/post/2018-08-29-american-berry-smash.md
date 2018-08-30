@@ -3,7 +3,11 @@ title: "American Berry Smash"
 date: 2018-08-29
 url: /2018/08/29/american-berry-smash/
 tags:
-  - 
+  - Bourbon
+  - Honey Syrup
+  - Blueberries
+  - Lemons
+  - Strawberry
 draft: false
 ---
 
