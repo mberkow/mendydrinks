@@ -1,0 +1,31 @@
+#!/bin/bash
+
+
+NAME=$1
+
+
+POST_DIR="content/post"
+TEMPLATE=template.md
+
+BASE_DIR=`dirname $0`
+TITLE=`echo $NAME | sed 's/ /-/g' |  tr '[:upper:]' '[:lower:]'`
+YEAR=`date +%Y`
+MONTH=`date +%m`
+DAY=`date +%d`
+
+
+DATE="$YEAR-$MONTH-$DAY"
+TEMPLATE_FILE=$BASE_DIR/$TEMPLATE
+URL="\/$YEAR\/$MONTH\/$DAY\/$TITLE\/"
+TARGET_FILE=$BASE_DIR/$POST_DIR/$DATE-$TITLE.md
+
+echo $TARGET_FILE
+
+cat ${TEMPLATE_FILE} \
+	| sed "s/%DATE/$DATE/" \
+	| sed "s/%TITLE/$TITLE/" \
+	| sed "s/%URL/$URL/" \
+	| sed "s/%NAME/$NAME/" \
+	> $TARGET_FILE
+
+subl $TARGET_FILE
