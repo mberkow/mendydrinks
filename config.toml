@@ -17,8 +17,6 @@ googleAnalytics = "UA-79306-5"
   intro = true
   headline = "Mendy Drinks"
   #description = "Mendy Drinks"
-  instagram = "mendy_drinks"
-  facebook = "mendy_drinks"
   sharegoogleplus = false
 
 [Permalinks]
