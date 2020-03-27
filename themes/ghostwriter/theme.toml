@@ -1,11 +1,11 @@
 name = "ghostwriter"
 license = "MIT"
 licenselink = "https://github.com/jbub/ghostwriter/blob/master/LICENSE.md"
-description = "A fork of simple AJAX driven theme for the Ghost blogging platform ported to Hugo."
+description = ""
 homepage = "https://github.com/jbub/ghostwriter"
 tags = ["blog", "technical", "personal"]
 features = ["blog", "technical", "personal"]
-min_version = 0.15
+min_version = "0.41"
 
 [author]
     name = "Juraj Bubniak"

@@ -13,12 +13,13 @@ googleAnalytics = "UA-79306-5"
 [Taxonomies]
 	tag = "tags"
 
-[params]
-	intro = true
-	headline = "Mendy Drinks"
-	#description = "Mendy Drinks"
-    instagram = "mendy_drinks"
-    sharegoogleplus = false
+[Params]
+  intro = true
+  headline = "Mendy Drinks"
+  #description = "Mendy Drinks"
+  instagram = "mendy_drinks"
+  facebook = "mendy_drinks"
+  sharegoogleplus = false
 
 [Permalinks]
 	post = "/:year/:month/:day/:filename/"
