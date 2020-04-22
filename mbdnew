@@ -28,4 +28,4 @@ cat ${TEMPLATE_FILE} \
 	| sed "s/%NAME/$NAME/" \
 	> $TARGET_FILE
 
-subl $TARGET_FILE
+subl -a $POST_DIR $TARGET_FILE
