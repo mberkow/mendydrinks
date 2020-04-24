@@ -2,8 +2,6 @@
 
 set -e 
 
-echo "Testing failure notification"
-exit 1
 if [[ -z $BUCKET_NAME ]]; then
 	echo "Bucketname not set"
 	exit 1
