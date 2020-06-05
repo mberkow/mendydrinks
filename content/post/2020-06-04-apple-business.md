@@ -10,7 +10,7 @@ tags:
 draft: false
 ---
 
-This recipe calls for "runny honey" but didn't quite explain how that was made. So I took 1/2 oz of honey and added 1/4 of hot water. Once I was fiddling with the ingrediants I decided to fiddle with the garnish as well. This is a boozy drink and the Gin shines through the sweatness of the honey and apple juice.
+This recipe calls for "runny honey" but didn't quite explain how that was made. So I took 1/2 oz of honey and added 1/4 of hot water. Once I was fiddling with the ingredients I decided to fiddle with the garnish as well. This is a boozy drink and the Gin shines through the sweetness of the honey and apple juice.
 
 {{< figure src="/images/2020-06-04-apple-business.jpg" >}}
 
