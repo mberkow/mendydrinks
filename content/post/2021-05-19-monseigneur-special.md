@@ -1,6 +1,6 @@
 ---
 title: "Monseigneur Special"
-date: 2021-05- 19
+date: 2021-05-19
 url: /2021/05/19/monseigneur-special/
 tags:
   - Apricot Brandy
