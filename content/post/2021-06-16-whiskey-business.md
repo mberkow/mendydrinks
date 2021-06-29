@@ -17,6 +17,6 @@ Like many people when I get a cocktail book I go through and mark recipes of int
 * 1 oz Rye
 * 1 oz Ancho Reyes
 * 1/2 oz Lemon Juice
-* 1/2 oz Cinnsmon Syrup
+* 1/2 oz Cinnamon Syrup
 
-Via [Kurt Maitland's Drink](https://www.amazon.com/dp/1604338318
+Via [Kurt Maitland's Drink](https://www.amazon.com/dp/1604338318)
