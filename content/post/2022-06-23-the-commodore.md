@@ -13,7 +13,7 @@ draft: false
 Wow. It has been almost a year. Found this in the Bourbon magazine. A fairly simple recipe to get back into the swing of things.
 
 
-{{< figure src="/images/2022-06-24-the-commodore.jpg" >}}
+{{< figure src="/images/2022-06-23-the-commodore.jpg" >}}
 
 * 1 1/2 oz Bourbon
 * 1/2 oz Lime Juice
