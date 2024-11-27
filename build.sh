@@ -23,7 +23,7 @@ if [[ -z $CODEBUILD_BUILD_ID && -z $AWS_SECRET_ACCESS_KEY ]]; then
 fi
 
 # Build
-hugo -v
+hugo
 
 # Sync
 aws s3 sync --acl "public-read" --sse "AES256" public/ s3://$BUCKET_NAME --exclude 'post'
