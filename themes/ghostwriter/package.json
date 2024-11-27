@@ -7,19 +7,18 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack --mode production",
-    "watch": "webpack --mode development --progress --colors --watch"
+    "watch": "webpack --mode development --progress --watch"
   },
   "devDependencies": {
-    "css-loader": "^3.4.2",
-    "mini-css-extract-plugin": "^0.9.0",
-    "node-sass": "^4.13.1",
+    "css-loader": "^6.5.1",
+    "css-minimizer-webpack-plugin": "^3.3.1",
+    "mini-css-extract-plugin": "^2.4.5",
+    "node-sass": "^9.0.0",
     "normalize.css": "^8.0.1",
-    "optimize-css-assets-webpack-plugin": "^5.0.3",
-    "perfectionist": "^2.4.0",
-    "postcss-discard-comments": "^4.0.2",
-    "sass-loader": "^8.0.2",
-    "webpack": "^4.41.5",
-    "webpack-cli": "^3.3.10",
-    "webpack-fix-style-only-entries": "^0.4.0"
+    "sass-loader": "^12.4.0",
+    "webpack": "^5.94.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-fix-style-only-entries": "^0.6.1",
+    "webpack-remove-empty-scripts": "^0.7.2"
   }
 }

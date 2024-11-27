@@ -1,13 +1,12 @@
 const path = require('path');
-const perfectionist = require('perfectionist');
-const discardComments = require('postcss-discard-comments');
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const FixStyleOnlyEntriesPlugin = require("webpack-fix-style-only-entries");
-const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
+const RemoveEmptyScriptsPlugin = require('webpack-remove-empty-scripts');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 
 module.exports = {
   entry: {
-    styles: path.join(__dirname, 'static', 'styles'),
+    site: path.join(__dirname, 'static', 'styles', 'site'),
+    syntax: path.join(__dirname, 'static', 'styles', 'syntax'),
   },
   resolve: {
     modules: [
@@ -19,22 +18,17 @@ module.exports = {
     path: path.join(__dirname, 'static', 'dist'),
   },
   plugins: [
-    new FixStyleOnlyEntriesPlugin(),
+    new RemoveEmptyScriptsPlugin(),
     new MiniCssExtractPlugin({
       filename: '[name].css'
     }),
-    new OptimizeCssAssetsPlugin({
-      cssProcessor: discardComments,
-      canPrint: false
-    }),
-    new OptimizeCssAssetsPlugin({
-      cssProcessor: perfectionist,
-      cssProcessorOptions: {
-        format: 'compact'
-      },
-      canPrint: false
-    })
   ],
+  optimization: {
+    minimize: true,
+    minimizer: [
+      new CssMinimizerPlugin(),
+    ],
+  },
   module: {
     rules: [
       {
