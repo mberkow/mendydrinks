@@ -1,6 +1,6 @@
 ---
 title: "All Bark All Bite"
-date: 2024-06-04
+date: 2024-12-23
 url: /2024/12/23/all-bark-all-bite/
 tags:
   - Scotch
