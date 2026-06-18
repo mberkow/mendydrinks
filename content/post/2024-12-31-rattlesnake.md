@@ -1,5 +1,5 @@
 ---
-title: "All Bark All Bite"
+title: "Rattlesnake"
 date: 2024-12-31
 url: /2024/12/31/rattlesnake/
 tags:
